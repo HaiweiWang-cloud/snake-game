@@ -190,11 +190,11 @@ window.addEventListener("load", function() {
     class Game {
         constructor(canvas) {
             /* Game parameters */
-            this.Nx = 60;
-            this.Ny = 30;
+            this.Nx = 30;
+            this.Ny = 15;
             this.startPosition = [Math.floor(this.Nx/2), Math.floor(this.Ny/2)];
             this.bodyColor = "yellow";
-            this.headColor = "blue";
+            this.headColor = "lightblue";
             this.foodColor = "pink";
             this.backgroundColor = "black";
             this.initialLength = 10;
